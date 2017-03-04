@@ -642,42 +642,42 @@ public class FrmMain extends javax.swing.JFrame {
         // TODO add your handling code here:
         txtBeverage.setText("Americano");
         txtUnitPrice.setText("15000");
-        txtStock.setText("10");
+        txtStock.setText(String.valueOf(stockAmericano));
     }//GEN-LAST:event_btnAmericanoActionPerformed
 
     private void btnJavaFrappeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnJavaFrappeActionPerformed
         // TODO add your handling code here:
         txtBeverage.setText("Java Frappe");
         txtUnitPrice.setText("20000");
-        txtStock.setText("10");
+        txtStock.setText(String.valueOf(stockJavaFrappe));
     }//GEN-LAST:event_btnJavaFrappeActionPerformed
 
     private void btnCaffeLatteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCaffeLatteActionPerformed
         // TODO add your handling code here:
         txtBeverage.setText("Caffee Latte");
         txtUnitPrice.setText("20000");
-        txtStock.setText("10");
+        txtStock.setText(String.valueOf(stockCafeeLatte));
     }//GEN-LAST:event_btnCaffeLatteActionPerformed
 
     private void btnMochaFrappeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMochaFrappeActionPerformed
         // TODO add your handling code here:
         txtBeverage.setText("Mocha Frappe");
         txtUnitPrice.setText("25000");
-        txtStock.setText("10");
+        txtStock.setText(String.valueOf(stockMochaFrappe));
     }//GEN-LAST:event_btnMochaFrappeActionPerformed
 
     private void btnCappucinoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCappucinoActionPerformed
         // TODO add your handling code here:
         txtBeverage.setText("Cappucino");
         txtUnitPrice.setText(String.valueOf(15000));
-        txtStock.setText("10");
+        txtStock.setText(String.valueOf(stockCappucino));
     }//GEN-LAST:event_btnCappucinoActionPerformed
 
     private void btnVanillaFrappeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVanillaFrappeActionPerformed
         // TODO add your handling code here:
         txtBeverage.setText("Vanilla Frappe");
         txtUnitPrice.setText("25000");
-        txtStock.setText("10");
+        txtStock.setText(String.valueOf(stockVanillaFrappe));
     }//GEN-LAST:event_btnVanillaFrappeActionPerformed
 
     private void btnCalculateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCalculateActionPerformed
